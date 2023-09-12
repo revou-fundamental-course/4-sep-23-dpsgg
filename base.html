@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kalkot</title>
+    <title>HiPer</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <h1>kalkot</h1>
-        <h4 class="kk">(Kalkulator Kotak)</h4>
+        <h1>HiPer</h1>
+        <h4 class="kk">(Hitung Persegi)</h4>
     </header>
     <img class="gambarrumus" src="https://cilacapklik.com/wp-content/uploads/2022/06/Rumus-Luas-Dan-Keliling-Persegi-1024x576.png.webp" height="260">
     <section class="inputsatu">
-        <label for="inputfield">Sisi Persegi</label>
-        <input type="number" id="inputfield" placeholder="Masukan">
+        <input type="number" id="s" class="inputsisipersegi" placeholder="Masukan Sisi Persegi">
     </section>
     <section class="buttonhitung">
-        <button id="Luas">Hitung Luas</button>
-        <button id="Keliling">Hitung Keliling</button>
+        <button id="Luas" onclick="ht_luas()">Hitung Luas</button>
+        <button id="Keliling" onclick="ht_keliling()">Hitung Keliling</button>
+        <div id="hasil"></div>
     </section>
     <script src="js/script.js"></script>
 </body>
