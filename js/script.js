@@ -5,13 +5,19 @@ function ht_luas(){
 
     var luas = s*s;
 
-    document.getElementById('Luas').innerHTML = luas
+    var element = document.getElementById('hasil');
+
+    element.innerHTML ='ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ'+'Hasilnya adalah:'+' '+luas+'cm²'
+    
 }
+
 
 function ht_keliling(){
     var s = document.getElementById('s').value;
 
     var keliling = 4*s;
 
-    document.getElementById('Keliling').innerHTML = keliling
+    var element = document.getElementById('hasil');
+
+    element.innerHTML = 'ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ'+'Hasilnya adalah:'+' '+keliling+'cm'
 }
