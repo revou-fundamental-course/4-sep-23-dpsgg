@@ -5,7 +5,7 @@ function ht_luas(){
 
     var luas = s*s;
 
-    document.getElementById('Luas').innerHTML = luas
+    document.getElementById('Luas1').innerHTML = 'Hasil Luas: ' + luas
 }
 
 function ht_keliling(){
@@ -13,5 +13,5 @@ function ht_keliling(){
 
     var keliling = 4*s;
 
-    document.getElementById('Keliling').innerHTML = keliling
+    document.getElementById('Keliling1').innerHTML = 'Hasil Keliling: ' + keliling
 }
