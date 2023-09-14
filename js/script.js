@@ -7,7 +7,7 @@ function ht_luas(){
 
     var element = document.getElementById('hasil');
 
-    element.innerHTML ='ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ'+'Hasilnya adalah:'+' '+luas+'cm²'
+    element.innerHTML ='ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ'+'Hasilnya adalah:'+' '+luas+'cm²'
     
 }
 
@@ -19,5 +19,5 @@ function ht_keliling(){
 
     var element = document.getElementById('hasil');
 
-    element.innerHTML = 'ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ'+'Hasilnya adalah:'+' '+keliling+'cm'
+    element.innerHTML = 'ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ'+'Hasilnya adalah:'+' '+keliling+'cm'
 }
